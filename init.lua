@@ -702,11 +702,11 @@ require('lazy').setup({
       }
 
       require('java').setup {
-        -- Your custom jdtls settings goes here
+        -- Your custom nvim-java settings go here
       }
 
       require('lspconfig').jdtls.setup {
-        -- Your custom nvim-java configuration goes here
+        -- Your custom jdtls configuration goes here
       }
 
       -- The following loop will configure each server with the capabilities we defined above.
